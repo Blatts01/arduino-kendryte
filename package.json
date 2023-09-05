@@ -1,0 +1,13 @@
+{
+    "name": "framework-arduino-k210",
+  "version": "0.9.95",
+    "description": "Arduino Framework for K210",
+    "url": "https://github.com/Blatts01/arduino-k210",
+    "keywords": [
+      "framework",
+      "arduino",
+      "kendryte",
+      "k210"
+    ]
+  }
+  
