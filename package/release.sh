@@ -16,8 +16,8 @@ function get_file_size(){
 echo "Creating ZIP ..."
 pushd "../../" >/dev/null
 
-ZIP=arduino-k210.zip
-DIR=arduino-k210
+ZIP=arduino-kendryte.zip
+DIR=arduino-kendryte
 
 rm -rf "$ZIP"
 zip -qr "$ZIP" "$DIR" -x "${DIR}/.git**"

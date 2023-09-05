@@ -2,9 +2,8 @@
     "packages": [
         {
             "name": "Kendryte",
-            "maintainer": "Canaan Creative",
-            "websiteURL": "https://github.com/kendryte/arduino-k210",
-            "email": "kendryte747@canaan-creative.com",
+            "maintainer": "Stefan Blattmann",
+            "websiteURL": "https://github.com/Blatts01/arduino-kendryte",
             "help": {
                 "online": "https://developer.canaan-creative.com/index.html?channel=developer#/home/0"
             },
@@ -13,9 +12,9 @@
                     "name": "K210",
                     "architecture": "K210",
                     "category": "Contributed",
-                    "version": "0.1.0",
+                    "version": "0.2.0",
                     "url": "https://github.com/kendryte/arduino-k210/releases/download/0.1.0/k210-0.1.0.zip",
-                    "archiveFileName": "arduino-k210.zip",
+                    "archiveFileName": "arduino-kendryte.zip",
                     "checksum": "",
                     "size": "",
                     "help": {
@@ -23,7 +22,7 @@
                     },
                     "boards": [
                         {
-                            "name": "Canaan K1"
+                            "name": "Maxiduino"
                         }
                     ],
                     "toolsDependencies": [
