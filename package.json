@@ -1,8 +1,8 @@
 {
-    "name": "framework-arduino-k210",
+  "name": "framework-arduino-kendryte",
   "version": "0.9.95",
-    "description": "Arduino Framework for K210",
-    "url": "https://github.com/Blatts01/arduino-k210",
+    "description": "Arduino Framework for Kendryte K210 Boards",
+    "url": "https://github.com/Blatts01/arduino-kendryte",
     "keywords": [
       "framework",
       "arduino",
