@@ -13,10 +13,10 @@
                     "architecture": "K210",
                     "category": "Contributed",
                     "version": "0.2.0",
-                    "url": "https://github.com/kendryte/arduino-k210/releases/download/0.1.0/k210-0.1.0.zip",
-                    "archiveFileName": "arduino-kendryte.zip",
-                    "checksum": "",
-                    "size": "",
+                    "url": "https://github.com/Blatts01/arduino-kendryte/archive/refs/tags/v0.2.0.zip",
+                    "archiveFileName": "v0.2.0.zip",
+                    "checksum": "SHA3:bda42922c08f45640922eaafbb048aa723f54e58daff64eb347c24c0",
+                    "size": "4593966",
                     "help": {
                         "online": ""
                     },
