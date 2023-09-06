@@ -4,6 +4,7 @@
             "name": "Kendryte",
             "maintainer": "Stefan Blattmann",
             "websiteURL": "https://github.com/Blatts01/arduino-kendryte",
+            "email": "kendryte747@canaan-creative.com",
             "help": {
                 "online": "https://developer.canaan-creative.com/index.html?channel=developer#/home/0"
             },
@@ -15,7 +16,7 @@
                     "version": "0.2.0",
                     "url": "https://github.com/Blatts01/arduino-kendryte/archive/refs/tags/v0.2.0.zip",
                     "archiveFileName": "v0.2.0.zip",
-                    "checksum": "SHA3:bda42922c08f45640922eaafbb048aa723f54e58daff64eb347c24c0",
+                    "checksum": "SHA-256:be08e7fcf3736fba32d7e2359be59e7bd63c85b8fe0564c81dd10b6ccb8b04e4",
                     "size": "4593966",
                     "help": {
                         "online": ""
