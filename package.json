@@ -1,13 +1,19 @@
 {
   "name": "framework-arduino-kendryte",
   "version": "0.9.95",
-    "description": "Arduino Framework for Kendryte K210 Boards",
+    "description": "Arduino Framework for Kendryte K210 Maxiduino Board",
     "url": "https://github.com/Blatts01/arduino-kendryte",
     "keywords": [
       "framework",
       "arduino",
       "kendryte",
       "k210"
-    ]
+    ],
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Blatts01/arduino-kendryte.git"
+    }
   }
   
+

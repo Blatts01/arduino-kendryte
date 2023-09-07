@@ -9,7 +9,7 @@ using namespace K210;
 class OV2640 : public Camera
 {
 public:
-    OV2640(int8_t sda = CAMERA_SDA_PIN, int8_t scl = CAMERA_SCL_PIN, int i2cNum = 2);
+    OV2640(int8_t sda = CAMERA_SDA, int8_t scl = CAMERA_SCL, int i2cNum = 2);
 
     ~OV2640(void);
 

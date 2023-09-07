@@ -40,12 +40,12 @@ static int _bus_dvp_irq(void *ctx)
 /* static */ int BusDVP::begin(int width, int height, camera_buffers_t *buff)
 {
     camera_pins_t pin = {
-        .pclk = CAMERA_PCLK_PIN,
-        .xclk = CAMERA_XCLK_PIN,
-        .hsync = CAMERA_HSYNC_PIN,
-        .vsync = CAMERA_VSYNC_PIN,
-        .rst = CAMERA_RST_PIN,
-        .pwdn = CAMERA_PWDN_PIN,
+        .pclk = CAMERA_PCLK,
+        .xclk = CAMERA_XCLK,
+        .hsync = CAMERA_HSYNC,
+        .vsync = CAMERA_VSYNC,
+        .rst = CAMERA_RST,
+        .pwdn = CAMERA_PWDN,
     };
 
     return begin(pin, 24, width, height, buff);

@@ -81,7 +81,7 @@ DSTATUS disk_initialize (
 	case DEV_SDCARD :
 		if(0x00 == _dev_sts[pdrv]) {
 			// result  = spisd_init(&soft_spi_interface, SDCARD_CLK_PIN, SDCARD_MIS_PIN, SDCARD_MOS_PIN, SDCARD_CSX_PIN);
-			result  = spisd_init(&hard_spi_interface, SDCARD_CLK_PIN, SDCARD_MIS_PIN, SDCARD_MOS_PIN, SDCARD_CSX_PIN);
+			result  = spisd_init(&hard_spi_interface, SDCARD_CLK, SDCARD_MISO, SDCARD_MOSI, SDCARD_CS0);
 
 			result += spisd_get_card_info(&_sd_info[pdrv]);
 

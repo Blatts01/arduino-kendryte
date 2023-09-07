@@ -9,7 +9,7 @@ using namespace K210;
 class GC0328 : public Camera
 {
 public:
-    GC0328(int8_t sda = CAMERA_SDA_PIN, int8_t scl = CAMERA_SCL_PIN, int i2cNum = 2);
+    GC0328(int8_t sda = CAMERA_SDA, int8_t scl = CAMERA_SCL, int i2cNum = 2);
 
     ~GC0328(void);
 
