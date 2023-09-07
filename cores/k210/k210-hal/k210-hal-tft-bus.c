@@ -23,6 +23,8 @@ struct tft_bus_t {
     int8_t dcx_pin;
     // mandatory
     int8_t csx_pin;
+
+    // Clock not used if 8080 Bus is used
     int8_t clk_pin;
 
     tft_bus_mod_t mode;
@@ -161,7 +163,11 @@ void hal_tft_begin(int8_t clk_pin, int8_t cs_pin, int8_t dc_pin, uint32_t freq)
 
     set_dcx(DCX_DATA);
 
-    hal_fpioa_set_pin_func(tft_bus.clk_pin, FUNC_SPI0_SCLK);
+    if (tft_bus.clk_pin != -128){
+        hal_fpioa_set_pin_func(tft_bus.clk_pin, FUNC_SPI0_SCLK);
+    }else {
+        LOG_I("Use 8080 LCD Bus, do not use clk Pin");
+    }
     hal_fpioa_set_pin_func(tft_bus.csx_pin, (fpioa_function_t)(FUNC_SPI0_SS0 + tft_bus.cs));
 
     spi_init(tft_bus.bus, SPI_WORK_MODE_0, SPI_FF_OCTAL, 8, 0);

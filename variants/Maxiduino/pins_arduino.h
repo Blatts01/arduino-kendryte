@@ -7,15 +7,16 @@
 #define UART1_RX (4) // UART_RX
 #define UART1_TX (5) // UART_TX
 
-// LCD 
+// LCD 8080 (Bit paralell Bus) no SPI0 CLK
 #define LCD_RST (37) // LCD Reset
 #define LCD_CS0 (36) // LCD Chip select
 #define LCD_DC0 (38) // LCD DC Data / Command
 #define LCD_WR  (39) // LCD Write / Read
 #define LCD_BL  (17) // LCD Backlight en
+#define LDC_CLK (-128) // -128 not used on Maxiduino use 808 Bus
 
 // SDCARD shared with ESP32 
-#define SDCARD_CLK  (27) // SD Clock
+#define SDCARD_CLK  (27) // SD Clock 
 #define SDCARD_MISO (26) // SD Master in Slave out
 #define SDCARD_MOSI (28) // SD Master out Slave in
 #define SDCARD_CS0  (29) // SD Chip select
