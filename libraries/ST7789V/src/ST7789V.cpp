@@ -4,7 +4,7 @@
 
 #include "ST7789V.h"
 
-#include "Bus8080.h"
+#include "8080.h"
 
 #ifndef _swap_int16_t
 #define _swap_int16_t(a, b)                                                    \
