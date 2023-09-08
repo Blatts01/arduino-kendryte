@@ -16,8 +16,8 @@
                     "version": "0.5.0",
                     "url": "https://github.com/Blatts01/arduino-kendryte/archive/refs/tags/v0.5.0.zip",
                     "archiveFileName": "arduino-kendryte-0.5.0.zip",
-                    "checksum": "SHA-256:e94871dd6513d169686a318dc54b57eaa59abeb9656ff129902e15521bc876be",
-                    "size": "7709847",
+                    "checksum": "SHA-256:3fea9b0881fe1ae09ffa25bdfdb5afec38c57122c692006be7847e5d9ec52c5e",
+                    "size": "10633369",
                     "help": {
                         "online": "https://github.com/Blatts01/arduino-kendryte"
                     },
