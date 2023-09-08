@@ -13,9 +13,9 @@
                     "name": "K210",
                     "architecture": "K210",
                     "category": "Contributed",
-                    "version": "0.4.0",
-                    "url": "https://github.com/Blatts01/arduino-kendryte/archive/refs/tags/v0.4.0.zip",
-                    "archiveFileName": "arduino-kendryte-0.4.0.zip",
+                    "version": "0.5.0",
+                    "url": "https://github.com/Blatts01/arduino-kendryte/archive/refs/tags/v0.5.0.zip",
+                    "archiveFileName": "arduino-kendryte-0.5.0.zip",
                     "checksum": "SHA-256:e94871dd6513d169686a318dc54b57eaa59abeb9656ff129902e15521bc876be",
                     "size": "7709847",
                     "help": {
