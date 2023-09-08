@@ -31,6 +31,9 @@
 #define CAMERA_SDA   (40) // Sensor I2C_SDA
 #define CAMERA_SCL   (41) // Sensor I2C_CLK
 
+#define CAMERA_RST_INV
+#define CAMERA_PWDN_INV
+
 // MIC (I2S) 
 #define MIC_BCK  (18) // Serial data clock 
 #define MIC_WS   (19) // Serial data word select

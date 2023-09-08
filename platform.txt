@@ -100,7 +100,7 @@ tools.kflash_py.cmd.windows=kflash.exe
 tools.kflash_py.upload.protocol=serial
 tools.kflash_py.upload.params.verbose=
 tools.kflash_py.upload.params.quiet=
-tools.kflash_py.upload.pattern_args=-n -p {serial.port} -b {build.burn_baudrate} -B {build.burn_board} {build.path}/{build.project_name}.bin
+tools.kflash_py.upload.pattern_args=-n -p {serial.port} -b {build.burn_baudrate} -S -B {build.burn_board} {build.path}/{build.project_name}.bin
 tools.kflash_py.upload.pattern=python3 "{path}/{cmd}" {upload.pattern_args}
 tools.kflash_py.upload.pattern.windows="{path}/{cmd}" {upload.pattern_args}
 

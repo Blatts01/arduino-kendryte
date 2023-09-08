@@ -24,7 +24,7 @@ Maxiduino.serial.disableRTS=true
 Maxiduino.build.core=k210
 Maxiduino.build.variant=Maxiduino
 Maxiduino.build.board=Maxiduino
-Maxiduino.build.burn_board=dan
+Maxiduino.build.burn_board=maxiduino
 
 Maxiduino.menu.clk_freq.400=400MHz
 Maxiduino.menu.clk_freq.400.build.f_cpu=400000000UL
