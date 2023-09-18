@@ -13,7 +13,10 @@
 #define LCD_DC0 (38) // LCD DC Data / Command
 #define LCD_WR  (39) // LCD Write / Read
 #define LCD_BL  (17) // LCD Backlight en
-#define LDC_CLK (-128) // -128 not used on Maxiduino use 808 Bus
+// The WR signal can be driven by the SPI clk.
+// the display module captures the data from host processor on the rising edge of WR signal.
+#define LDC_CLK (LCD_WR)
+
 
 // SDCARD shared with ESP32 
 #define SDCARD_CLK  (27) // SD Clock 
